@@ -30,7 +30,7 @@ const Banner = () => {
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
-            href="/contacto"
+            href="#contacto"
             className="bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-orange-50 transition-all duration-300 shadow-md"
           >
             Solicitar Cotización
