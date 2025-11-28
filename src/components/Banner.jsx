@@ -1,5 +1,7 @@
-import React from "react";
+
 import { Building2 } from "lucide-react";
+import { Link } from "react-router-dom";
+
 
 const Banner = () => {
   return (
@@ -29,12 +31,13 @@ const Banner = () => {
           Experto en construcción, remodelación y acabados de calidad
         </p>
         <div className="flex flex-col sm:flex-row justify-center gap-4">
-          <a
-            href="#contacto"
-            className="bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-orange-50 transition-all duration-300 shadow-md"
-          >
-            Solicitar Cotización
-          </a>
+       <Link
+  to="/contacto"
+  className="bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-orange-50 transition-all duration-300 shadow-md"
+>
+  Solicitar Cotización
+</Link>
+
         </div>
       </div>
     </section>
